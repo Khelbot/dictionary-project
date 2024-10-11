@@ -1,0 +1,30 @@
+.Phonetics {
+  margin: 20px 0;
+}
+
+.Phonetics div {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adds space between the link and the text */
+  margin-bottom: 20px; /* Adds space between phonetic items */
+}
+
+.pronunciation a {
+  border: 1px solid #ddd;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetics a:hover {
+  background: #9670f4;
+  color: white;
+}
+
+.Phonetics .text {
+  opacity: 0.5;
+  font-weight: bold;
+}

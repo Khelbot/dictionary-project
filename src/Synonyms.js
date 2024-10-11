@@ -1,4 +1,5 @@
 import React from "react";
+import "./Synonyms.css";
 
 export default function Synonyms(props) {
   // Check if there are synonyms and render them
