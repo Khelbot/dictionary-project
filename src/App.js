@@ -10,10 +10,35 @@ export default function App() {
           <img src={book} className="App-logo img-fluid" alt="logo" />{" "}
         </header>
         <main>
-          <Dictionary  defaultKeyword="moonlight"/>
+          <Dictionary defaultKeyword="moonlight" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Khelsea Al-Arefi</small>
+          <small>
+            This project was coded by{" "}
+            <a
+              href="https://khelsea-alarefi-web-dev-portfolio.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Khelsea Al-Arefi
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/Khelbot/react-weather-homework"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://jolly-salamander-27ea5f.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
